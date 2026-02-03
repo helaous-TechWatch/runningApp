@@ -33,6 +33,11 @@ android {
 }
 
 dependencies {
+
+    // add dependencies to core and run domain
+    implementation(projects.core.domain)
+    implementation(projects.run.domain)
+
     implementation(libs.androidx.core.ktx)
 
     implementation(libs.androidx.compose.ui)

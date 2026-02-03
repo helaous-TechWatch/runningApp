@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    // add dependencies to core domain
+    implementation(projects.core.domain)
 
     implementation(libs.org.mongodb.bson)
 }

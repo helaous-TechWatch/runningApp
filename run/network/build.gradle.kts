@@ -33,4 +33,8 @@ android {
 }
 
 dependencies {
+    // add dependencies to core and run domain and core data
+    implementation(projects.core.domain)
+    implementation(projects.core.data)
+
 }

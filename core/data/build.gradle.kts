@@ -34,5 +34,9 @@ android {
 
 dependencies {
 
+    // add dependencies to core domain and core database
+    implementation(projects.core.domain)
+    implementation(projects.core.database)
+
     implementation(libs.timber)
 }
